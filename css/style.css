@@ -1,0 +1,36 @@
+body {
+    color: #999;
+}
+
+/*****Nav Bar Stuff*****/
+#nav{
+    margin-left: 0.5rem;
+}
+
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+    float: left;
+    display: inline;
+    margin: 0.5rem;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: #999;
+}
+
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a{
+    font-weight: normal;
+    background-color: #fff;
+    cursor: default;
+    color: #999;
+}
+/*****About Me******/
+#about-div{
+}
+
+/*****My Work******/
+#work-div{
+    background-color: #999;
+    margin: 0rem;
+    max-width: 100%;
+}
+
