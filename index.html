@@ -12,20 +12,26 @@
 	</head>
 
 	<body>
-    <div data-magellan-expedition="fixed" id="nav">
-      <ul class="sub-nav center">
-        <li data-magellan-arrival="about"><a class="nav-item" href="#about">About Me</a></li>
-        <li data-magellan-arrival="work"><a class="nav-item" href="#work">My Work</a></li>
-        <li data-magellan-arrival="contact"><a class="nav-item" href="#">Contact</a></li>
-      </ul>
-    </div>
+    <!--<div class="row">
+      <div class="small-3 small-centered columns" id="nav">-->
+        <div data-magellan-expedition="fixed" id="magellan"> 
+          <ul class="sub-nav">
+            <li data-magellan-arrival="about"><a class="nav-item" href="#about">About Me</a></li>
+            <li data-magellan-arrival="work"><a class="nav-item" href="#work">My Work</a></li>
+            <li data-magellan-arrival="contact"><a class="nav-item" href="#">Contact</a></li>
+          </ul> 
+        </div>
+      <!--</div>
+    </div>-->
 
 
     <div class="row" data-magellan-destination="about" id="about-div">
-  		<a id="about"><h2>Hi there,</h2></a>
-  		<p>My name is Jeremy Chiang and I'm currently studying 
-  		<b>Informations Systems</b> and pursuing an additional 
-  		major in <b>Business Administration</b> at Carnegie Mellon University.</p>
+      <div class="small-6 small-centered columns">
+    		<a id="about"><h2>Hi there,</h2></a>
+    		<p>My name is <b>Jeremy Chiang</b> and I'm currently studying 
+    		<b>Informations Systems</b> and pursuing an additional 
+    		major in <b>Business Administration</b> at Carnegie Mellon University.</p>
+      </div>
     </div>
 
     <div id="work-div" class="row" data-magellan-destination="work">
