@@ -1,32 +1,15 @@
 <html>
 	<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/foundation.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-
-        <script src="js/vendor/modernizr.js"></script>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script src="js/foundation/foundation.magellan.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<title>Jeremy Chiang | Solid Dude</title>
 	</head>
 
 	<body>
-    <!--<div class="row">
-      <div class="small-3 small-centered columns" id="nav">
-        <div data-magellan-expedition="fixed" id="magellan"> 
-          <ul class="sub-nav">
-            <li data-magellan-arrival="about"><a class="nav-item" href="#about">About Me</a></li>
-            <li data-magellan-arrival="work"><a class="nav-item" href="#work">My Work</a></li>
-            <li data-magellan-arrival="contact"><a class="nav-item" href="#">Contact</a></li>
-          </ul> 
-        </div>
-      </div>
-    </div>-->
-
 
     <div class="row" id="about-div">
       <div data-magellan-expedition="fixed" id="magellan"> 
@@ -44,12 +27,11 @@
               <div class="small-6 small-centered columns" id="about-me">
                 <a id="about"><h1 data-magellan-destination="about">Hi there,</h1></a>
                 <p>My name is <b>Jeremy Chiang</b> and I'm currently studying 
-                <b>Informations Systems</b> and pursuing an additional 
-                major in <b>Business Administration</b> at Carnegie Mellon University.</p>
+                <b>Informations Systems</b> and <b>Business Administration</b> at <b>Carnegie Mellon University</b>.</p>
               </div>
             </div>
           </li>
-          <li class="active" style="background-image:url('images/breck.jpg')">
+          <li class="active" style="background-image:url('images/breck.jpg')" data-orbit-slide="slide-2">
             <div class="orbit-caption">
               Caption Two.
             </div>
@@ -57,22 +39,35 @@
         </ul>
       </div>
 
-     <!-- <div class="small-6 small-centered columns" id="about-me">
-    		<a id="about"><h1 data-magellan-destination="about">Hi there,</h1></a>
-    		<p>My name is <b>Jeremy Chiang</b> and I'm currently studying 
-    		<b>Informations Systems</b> and pursuing an additional 
-    		major in <b>Business Administration</b> at Carnegie Mellon University.</p>
-      </div> -->
-
     </div>
 
     <div id="work-div" class="row" data-magellan-destination="work">
-      <h1><a id="work">My Work</a></h1>
-    </div>
+      <h1>My Work</h1>
 
-   <!-- <script src="js/vendor/jquery.js"></script>
+      <div class="container" id="work-container">
+        <a id="work"></a>
+        <div class="row">
+          <div class="small-4 columns">
+            <a href="#"><div class="work-item" id="fino-box"></div></a>
+            <a href="#"><div class="work-item" id="pulse-box"></div></a>
+          </div>
+          <div class="small-4 columns">
+            <a href="#"><div class="work-item" id="dj-box"></div></a>
+            <a href="#"><div class="work-item" id="mediafi-box"></div></a>
+            <a href="#"><div class="work-item" id="karate-box"></div></a>
+          </div>
+          <div class="small-4 columns">
+            <a href="#"><div class="work-item" id="ezbike-box"></div></a>
+            <a href="#"><div class="work-item" id="gelfand-box"></div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
-    <script src="js/foundation/foundation.magellan.js"></script> -->
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script src="js/app.js"></script>
     <script> 
       $(document).foundation();
     </script>
