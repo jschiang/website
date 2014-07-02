@@ -123,6 +123,9 @@ margin: 0px;
     height: 100%;
 }
 
+#work-div{
+    padding-top: 5%;
+}
 #work-container{
     background-color: red;
     height:80%;
