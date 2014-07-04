@@ -195,7 +195,11 @@ margin: 0px;
     text-align: left;
     margin-top: 20%;
     margin-left: 10%;
-    color: #333;
+}
+
+#work-container .work-item .work-content p{
+    color: rgba(255,255,255,0.7);
+    font-size: 20px;
 }
 
 #work-container .work-item .overlay{
@@ -205,12 +209,11 @@ margin: 0px;
     height: 100%;
     text-align: center;
     color: #fff;
-    font-size: 17px;
     top: -100%;
 }
 
 #work-container .work-item .overlay h4{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 27%;
 }
 
@@ -219,22 +222,26 @@ margin: 0px;
     background-color: #bad634;
 }
 
-#work-container #fino-box .work-content {
-    color: #8FBE00;
+#work-container #fino-box .work-content p{
+    color: rgba(50,50,50,0.5);
 }
 
-#work-container #fino-box h4 {
+/*#work-container #fino-box h4 {
     margin-top: 60%;
 }
-
+*/
 #work-container #gelfand-box{
     height: 62.5%%;
     background-color: #f8ca00;
 }
 
-#work-container #gelfand-box h4 {
-    margin-top: 60%;
+#work-container #gelfand-box .work-content p{
+    color: rgba(50,50,50,0.5);
 }
+
+/*#work-container #gelfand-box h4 {
+    margin-top: 60%;
+}*/
 
 #work-container #pulse-box{
     background-color: #315f95;
