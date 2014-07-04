@@ -1,5 +1,15 @@
 body {
     color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+body b{
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .row{
@@ -12,7 +22,7 @@ body {
 }
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-background: rgba(0,0,0,0.7);
+background: rgba(255,153,0,0.7);
 z-index: 50;
 min-width: 0%;
 width: 100%;
@@ -34,7 +44,7 @@ margin: 0px;
 
 .sub-nav dt, .sub-nav dd, .sub-nav li {
     margin: 0rem;
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans' ,sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #fff;
@@ -62,20 +72,42 @@ margin: 0px;
     color: 737373;
 }
 
+/*****Intro*****/
+#intro-div{
+    background-image: url('../images/dallas.jpg');
+    width: 100%;
+    height: 100%;
 
-/*****About Me******/
-#about-div {
-/*    background-image: url('../images/breck.jpg');
-    background-size: cover;
-    min-height: 100%;
-    min-width:100%;*/
+    /*-webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px); 
+
+    z-index: -1;*/
+}
+
+#hi{
+    margin-top: 10%;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 15%;
 
 }
 
+#hi h1{
+    color: #fff;
+}
+
+
+/*****About Me******/
+#about-div {
+    width: 100%;
+    height: 100%;
+}
+
 #about-me{
-    margin-top: 7rem;
-    z-index: 100;
-    background-color: transparent;
+    margin-top: 10%;
 }
 
 #about-me a{
@@ -95,7 +127,7 @@ margin: 0px;
 
 #slider .orbit-container{
     width: 100%;
-    height: 94%;
+    height: 100%;
 }
 
 #slider .orbit-slides-container{
@@ -118,19 +150,20 @@ margin: 0px;
 
 /*****My Work******/
 #work-div{
-    background-color: #fff;
     margin-top: 0rem;
     height: 100%;
+    padding-top: 2%;
+    background-color: #f0f0f0;
+    text-align: center;
 }
 
-#work-div{
-    padding-top: 5%;
+#work-div h1{
+    font-size: 40px;
 }
 #work-container{
-    background-color: transparent;
     height:80%;
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #work-container .row{
@@ -143,6 +176,7 @@ margin: 0px;
     margin: 0px;
     padding: 0px;
 }
+
 #work-container a{
     cursor: default;
     padding: 0px;
@@ -150,16 +184,23 @@ margin: 0px;
 }
 
 #work-container .work-item{
-    background-color: blue;
+    background-color: #00a8c6;
     height:30%;
-    margin: 5% 2.5% 5% 2.5%;
+    margin: 16px 8px 16px 8px;
     overflow: hidden;
     position: relative;
 }
 
+#work-container .work-item .work-content{
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 10%;
+    color: #333;
+}
+
 #work-container .work-item .overlay{
     position: absolute;
-    background: rgba(115,102,93,1);
+    background: rgba(200,200,200,0.8);
     width: 100%;
     height: 100%;
     text-align: center;
@@ -168,12 +209,50 @@ margin: 0px;
     top: -100%;
 }
 
+#work-container .work-item .overlay h4{
+    font-size: 15px;
+    margin-top: 27%;
+}
+
 #work-container #fino-box{
     height: 62.5%;
+    background-color: #bad634;
+}
+
+#work-container #fino-box .work-content {
+    color: #8FBE00;
+}
+
+#work-container #fino-box h4 {
+    margin-top: 60%;
 }
 
 #work-container #gelfand-box{
-    height: 62.5%;
+    height: 62.5%%;
+    background-color: #f8ca00;
+}
+
+#work-container #gelfand-box h4 {
+    margin-top: 60%;
+}
+
+#work-container #pulse-box{
+    background-color: #315f95;
+}
+
+#work-container #dj-box{
+    background-color: #BD1550;
+}
+
+#work-container #mediafi-box{
+}
+
+#work-container #karate-box{
+    background-color: #F38630;
+}
+
+#work-container #ezbike-box{
+    background-color: #17968a;
 }
 
 
